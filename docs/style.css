@@ -1,0 +1,131 @@
+:root {
+    --bg-dark: #0a0e17;
+    --bg-card: #141b2d;
+    --text-light: #f4f6f9;
+    --text-muted: #4ea8de;
+    --love-color: #ff4d6d;
+    --project-color: #52b788;
+    --activity-color: #ee9b00;
+    --intimacy-color: #9b2226;
+    --border-radius: 12px;
+    --transition: all 0.3s ease;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 650px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.app-header h1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(78, 168, 222, 0.3);
+}
+
+.calendar-nav-container {
+    margin: 20px 0;
+    padding: 10px;
+    background: var(--bg-card);
+    border-radius: var(--border-radius);
+}
+
+.calendar-grid-menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.calendar-day-link {
+    display: block;
+    padding: 10px 14px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-light);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.calendar-day-link:hover {
+    background-color: rgba(78, 168, 222, 0.15);
+    border-color: var(--text-muted);
+}
+
+.calendar-day-link.active {
+    background-color: var(--text-muted);
+    color: var(--bg-dark);
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(78, 168, 222, 0.4);
+}
+
+#current-date-display {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.sky-transit {
+    background: linear-gradient(135deg, #141b2d, #1f293d);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 25px;
+    border-left: 5px solid var(--text-muted);
+}
+
+.horoscope-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    background-color: var(--bg-card);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.card h3 { margin-top: 0; margin-bottom: 10px; font-size: 1.2rem; }
+.love h3 { color: var(--love-color); }
+.projects h3 { color: var(--project-color); }
+.activities h3 { color: var(--activity-color); }
+.intimacy h3 { color: var(--intimacy-color); }
+
+.app-footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: rgba(244, 246, 249, 0.4);
+}

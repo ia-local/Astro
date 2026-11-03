@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Ancre & La Voile — Votre Horoscope Personnel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app-container">
+        <header class="app-header">
+            <h1 id="main-title">L'Ancre & La Voile</h1>
+            
+            <!-- Module Calendrier de Navigation -->
+            <nav class="calendar-nav-container" aria-label="Navigation chronologique">
+                <div id="calendar-navigation" class="calendar-grid-menu"></div>
+            </nav>
+
+            <h2 id="current-date-display">Chargement...</h2>
+        </header>
+
+        <!-- Illustration Astrologique Dynamique -->
+        <section class="horoscope-media">
+            <img id="horoscope-image" src="" alt="Transit planétaire du jour" class="responsive-img">
+        </section>
+
+        <!-- Les Coulisses du Ciel -->
+        <section class="sky-transit" aria-labelledby="transit-title">
+            <h3 id="transit-title">🪐 Les Coulisses du Ciel</h3>
+            <p id="transit-content"></p>
+        </section>
+
+        <!-- Contenus de l'Horoscope -->
+        <section class="horoscope-grid">
+            <article class="card love">
+                <h3>💖 Côté Amour</h3>
+                <p id="love-content"></p>
+            </article>
+
+            <article class="card projects">
+                <h3>💼 Côté Projets & Pro</h3>
+                <p id="projects-content"></p>
+            </article>
+
+            <article class="card activities">
+                <h3>🧩 Activité & Sport</h3>
+                <p id="activities-content"></p>
+            </article>
+
+            <article class="card intimacy">
+                <h3>🔥 Côté Intimité</h3>
+                <p id="intimacy-content"></p>
+            </article>
+        </section>
+
+        <footer class="app-footer">
+            <p id="footer-credits">Calculé pour Michael & Sandra</p>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
