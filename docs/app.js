@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 async function loadConfig() {
     try {
-        const response = await fetch('./config.json');
+        const configPath = window.CONFIG_PATH || './config.json';
+        const response = await fetch(configPath);
         return await response.json();
     } catch (error) {
         console.error("Erreur d'initialisation de l'application :", error);
@@ -49,7 +50,8 @@ async function fetchAndRender(dateString) {
     });
 
     try {
-        const response = await fetch(`./data/${dateString}.json`);
+        const dataPrefix = window.DATA_PREFIX || './data/';
+        const response = await fetch(`${dataPrefix}${dateString}.json`);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         
         const data = await response.json();

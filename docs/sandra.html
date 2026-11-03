@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandra — Horoscope Bélier / Gémeaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app-container">
+        <!-- Bouton de retour au Hub -->
+        <div style="margin-bottom: 15px;">
+            <a href="index.html" class="calendar-day-link" style="display: inline-block; text-align: center;">← Retour au Hub</a>
+        </div>
+
+        <header class="app-header">
+            <h1 id="main-title">Horoscope de Sandra</h1>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: -5px; margin-bottom: 15px;">♈ Bélier / ♊ Ascendant Gémeaux (La Voile)</p>
+            
+            <!-- Module Calendrier de Navigation -->
+            <nav class="calendar-nav-container" aria-label="Navigation chronologique">
+                <div id="calendar-navigation" class="calendar-grid-menu"></div>
+            </nav>
+
+            <h2 id="current-date-display">Chargement...</h2>
+        </header>
+
+        <!-- Illustration Astrologique Dynamique -->
+        <section class="horoscope-media">
+            <img id="horoscope-image" src="" alt="Transit planétaire du jour" class="responsive-img">
+        </section>
+
+        <!-- Les Coulisses du Ciel -->
+        <section class="sky-transit" aria-labelledby="transit-title">
+            <h3 id="transit-title">🪐 Les Coulisses du Ciel</h3>
+            <p id="transit-content"></p>
+        </section>
+
+        <!-- Contenus de l'Horoscope -->
+        <section class="horoscope-grid">
+            <article class="card love">
+                <h3>💖 Élan & Spontanéité</h3>
+                <p id="love-content"></p>
+            </article>
+
+            <article class="card projects">
+                <h3>💼 Idées & Créativité</h3>
+                <p id="projects-content"></p>
+            </article>
+
+            <article class="card activities">
+                <h3>🧩 Action & Dynamisme</h3>
+                <p id="activities-content"></p>
+            </article>
+
+            <article class="card intimacy">
+                <h3>🔥 Complicité & Mots</h3>
+                <p id="intimacy-content"></p>
+            </article>
+        </section>
+
+        <footer class="app-footer">
+            <p id="footer-credits">Calculé pour Sandra (La Voile)</p>
+        </footer>
+    </main>
+
+    <script>
+        // Configuration spécifique pour pointer vers les données de Sandra
+        window.CONFIG_PATH = './config-sandra.json';
+        window.DATA_PREFIX = './data-sandra/';
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

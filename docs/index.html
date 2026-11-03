@@ -3,62 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'Ancre & La Voile — Votre Horoscope Personnel</title>
+    <title>AstroHub — Michael, Sandra & Notre Duo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <main class="app-container">
+        <!-- En-tête du Hub -->
         <header class="app-header">
-            <h1 id="main-title">Horoscope Personnel</h1>
-            
-            <!-- Module Calendrier de Navigation -->
-            <nav class="calendar-nav-container" aria-label="Navigation chronologique">
-                <div id="calendar-navigation" class="calendar-grid-menu"></div>
-            </nav>
-
-            <h2 id="current-date-display">Chargement...</h2>
+            <h1>AstroHub</h1>
+            <p id="current-date-display">Votre Météo Astrale Personnalisée</p>
         </header>
 
-        <!-- Illustration Astrologique Dynamique -->
-        <section class="horoscope-media">
-            <img id="horoscope-image" src="" alt="Transit planétaire du jour" class="responsive-img">
-        </section>
-
-        <!-- Les Coulisses du Ciel -->
-        <section class="sky-transit" aria-labelledby="transit-title">
-            <h3 id="transit-title">🪐 Les Coulisses du Ciel</h3>
-            <p id="transit-content"></p>
-        </section>
-
-        <!-- Contenus de l'Horoscope -->
+        <!-- Grille des 3 Cartes (Vertical sur mobile, Ligne sur desktop) -->
         <section class="horoscope-grid">
-            <article class="card love">
-                <h3>💖 Côté Amour</h3>
-                <p id="love-content"></p>
+            <!-- Carte 1 : Sandra -->
+            <article class="card profile-sandra" onclick="window.location.href='sandra.html';" style="cursor: pointer;">
+                <h3>♈ Sandra</h3>
+                <p><strong>Bélier / Ascendant Gémeaux</strong><br>La Voile : Spontanéité, impulsion, communication et curiosité.</p>
+                <span class="card-action-link">Voir son horoscope →</span>
+            </article>
+            <!-- Carte 2 : Mickael -->
+            <article class="card profile-mickael" onclick="window.location.href='mickael.html';" style="cursor: pointer;">
+                <h3>♍ Mickael</h3>
+                <p><strong>Vierge / Ascendant Taureau</strong><br>L'Ancre : Stabilité, structure, sensualité et pragmatisme.</p>
+                <span class="card-action-link">Voir mon horoscope →</span>
+            </article>
+            <!-- Carte 3 : Le Duo -->
+            <article class="card love" onclick="window.location.href='couple.html';" style="cursor: pointer;">
+                <h3>🌌 Notre Duo</h3>
+                <p><strong>L'Ancre & La Voile</strong><br>La synergie parfaite entre l'étincelle et l'ancrage.</p>
+                <span class="card-action-link">Ouvrir le calendrier du duo →</span>
             </article>
 
-            <article class="card projects">
-                <h3>💼 Côté Projets & Pro</h3>
-                <p id="projects-content"></p>
-            </article>
-
-            <article class="card activities">
-                <h3>🧩 Activité & Sport</h3>
-                <p id="activities-content"></p>
-            </article>
-
-            <article class="card intimacy">
-                <h3>🔥 Côté Intimité</h3>
-                <p id="intimacy-content"></p>
-            </article>
         </section>
 
+        <!-- Footer épuré -->
         <footer class="app-footer">
-            <p id="footer-credits">Calculé pour Michael & Sandra</p>
+            <p>Développé avec précision pour Michael & Sandra</p>
         </footer>
     </main>
 
-    <script src="app.js"></script>
 </body>
 </html>
