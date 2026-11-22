@@ -11,8 +11,46 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="AstroHub">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AstroHub — Michael, Sandra & Notre Duo</title>
+    <title>AstroHub — Michael, Sandra &amp; Notre Duo</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Adaptation sémantique des cartes-liens et styles complémentaires du Hub */
+        a.card {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .profile-sandra h3 {
+            color: #ff758f;
+        }
+
+        .profile-mickael h3 {
+            color: var(--project-color);
+        }
+
+        .observatory-card {
+            border: 1px solid rgba(78, 168, 222, 0.28);
+            background: linear-gradient(135deg, var(--bg-card), #1a243b);
+        }
+
+        .observatory-card h3 {
+            color: var(--text-muted);
+        }
+
+        .card-action-link {
+            display: inline-block;
+            margin-top: 6px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: var(--transition);
+        }
+
+        a.card:hover .card-action-link {
+            transform: translateX(4px);
+        }
+    </style>
 </head>
 <body>
 
@@ -23,32 +61,40 @@
             <p id="current-date-display">Votre Météo Astrale Personnalisée</p>
         </header>
 
-        <!-- Grille des 3 Cartes (Vertical sur mobile, Ligne sur desktop) -->
-        <section class="horoscope-grid">
+        <!-- Grille des 4 Cartes du Hub -->
+        <section class="horoscope-grid" aria-label="Navigation principale AstroHub">
             <!-- Carte 1 : Sandra -->
-            <article class="card profile-sandra" onclick="window.location.href='sandra.html';" style="cursor: pointer;">
+            <a href="sandra.html" class="card profile-sandra">
                 <h3>♈ Sandra</h3>
                 <p><strong>Bélier / Ascendant Gémeaux</strong><br>La Voile : Spontanéité, impulsion, communication et curiosité.</p>
                 <span class="card-action-link">Voir son horoscope →</span>
-            </article>
+            </a>
+
             <!-- Carte 2 : Mickael -->
-            <article class="card profile-mickael" onclick="window.location.href='mickael.html';" style="cursor: pointer;">
+            <a href="mickael.html" class="card profile-mickael">
                 <h3>♍ Mickael</h3>
                 <p><strong>Vierge / Ascendant Taureau</strong><br>L'Ancre : Stabilité, structure, sensualité et pragmatisme.</p>
                 <span class="card-action-link">Voir mon horoscope →</span>
-            </article>
-            <!-- Carte 3 : Le Duo -->
-            <article class="card love" onclick="window.location.href='couple.html';" style="cursor: pointer;">
-                <h3>🌌 Notre Duo</h3>
-                <p><strong>L'Ancre & La Voile</strong><br>La synergie parfaite entre l'étincelle et l'ancrage.</p>
-                <span class="card-action-link">Ouvrir le calendrier du duo →</span>
-            </article>
+            </a>
 
+            <!-- Carte 3 : Le Duo -->
+            <a href="couple.html" class="card love">
+                <h3>🌌 Notre Duo</h3>
+                <p><strong>L'Ancre &amp; La Voile</strong><br>La synergie parfaite entre l'étincelle et l'ancrage.</p>
+                <span class="card-action-link">Ouvrir le calendrier du duo →</span>
+            </a>
+
+            <!-- Carte 4 : Observatoire Spatial (5 Échelles & Bio-Astronomie) -->
+            <a href="observatoire-spatiale.html" class="card observatory-card">
+                <h3>🔭 Observatoire Spatial</h3>
+                <p><strong>Bio-Astronomie &amp; Les 5 Échelles</strong><br>Éphémérides temps réel (Sidéral &amp; Tropical), marées et matrice des 4 règnes.</p>
+                <span class="card-action-link">Ouvrir l'observatoire →</span>
+            </a>
         </section>
 
         <!-- Footer épuré -->
         <footer class="app-footer">
-            <p>Développé avec précision pour Michael & Sandra</p>
+            <p>Développé avec précision pour Michael &amp; Sandra</p>
         </footer>
     </main>
 
