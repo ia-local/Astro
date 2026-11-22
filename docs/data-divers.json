@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "date": "2026-11-22",
+      "category": "musique",
+      "author": "Mickael",
+      "title": "Un souvenir de ce matin",
+      "content": "Une chanson déposée ce matin dans le répertoire audio pour que tu puisses l'écouter tranquillement.",
+      "trackLabel": "Souvenir de ce matin (Audio)",
+      "mediaUrl": "audio/Je-m-excuse-Sandra.mp3"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "explication",
+      "author": "Mickael",
+      "title": "Comment fonctionne l'Observatoire Spatial (Sidéral & Tropical)",
+      "content": "Le repère Tropical suit les saisons terrestres et la chronobiologie (l'Ancre). Le repère Sidéral montre la position réelle des astres devant les constellations de la galaxie (la Voile). Les deux couches se superposent dans l'observatoire.",
+      "mediaUrl": ""
+    }
+  ]
+}
