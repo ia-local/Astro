@@ -14,7 +14,6 @@
     <title>AstroHub — Michael, Sandra &amp; Notre Duo</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Adaptation sémantique des cartes-liens et styles complémentaires du Hub */
         a.card {
             display: block;
             text-decoration: none;
@@ -36,6 +35,15 @@
 
         .observatory-card h3 {
             color: var(--text-muted);
+        }
+
+        .divers-card {
+            border: 1px solid rgba(238, 155, 0, 0.28);
+            background: linear-gradient(135deg, var(--bg-card), #221d2e);
+        }
+
+        .divers-card h3 {
+            color: var(--activity-color);
         }
 
         .card-action-link {
@@ -61,7 +69,7 @@
             <p id="current-date-display">Votre Météo Astrale Personnalisée</p>
         </header>
 
-        <!-- Grille des 4 Cartes du Hub -->
+        <!-- Grille des Cartes du Hub -->
         <section class="horoscope-grid" aria-label="Navigation principale AstroHub">
             <!-- Carte 1 : Sandra -->
             <a href="sandra.html" class="card profile-sandra">
@@ -84,11 +92,18 @@
                 <span class="card-action-link">Ouvrir le calendrier du duo →</span>
             </a>
 
-            <!-- Carte 4 : Observatoire Spatial (5 Échelles & Bio-Astronomie) -->
+            <!-- Carte 4 : Observatoire Spatial -->
             <a href="observatoire-spatiale.html" class="card observatory-card">
                 <h3>🔭 Observatoire Spatial</h3>
                 <p><strong>Bio-Astronomie &amp; Les 5 Échelles</strong><br>Éphémérides temps réel (Sidéral &amp; Tropical), marées et matrice des 4 règnes.</p>
                 <span class="card-action-link">Ouvrir l'observatoire →</span>
+            </a>
+
+            <!-- Carte 5 : Divers (Messages, Musique, Vidéos & Explications) -->
+            <a href="divers.html" class="card divers-card">
+                <h3>✨ Divers &amp; Partages</h3>
+                <p><strong>Messages, Musique, Vidéos &amp; Explications</strong><br>Un espace libre pour partager des mots, des morceaux, des vidéos et des notes.</p>
+                <span class="card-action-link">Ouvrir l'espace partagé →</span>
             </a>
         </section>
 
