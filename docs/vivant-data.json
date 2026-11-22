@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "title": "Matrice Bio-Astronomique — Les 4 Règnes (Humain, Animal, Végétal, Minéral)",
+    "referentials": [
+      "Sidéral (Échelles 3-4)",
+      "Tropical (Échelles 1-2)"
+    ]
+  },
+  "signs": {
+    "Bélier": {
+      "index": 0,
+      "symbol": "♈",
+      "constellation": "Aries (Bélier)",
+      "element": "Feu",
+      "biodynamicPart": "Fruits & Graines",
+      "ruler": "Mars",
+      "humain": {
+        "energie": "Impulsion vive, réactivité neuromusculaire élevée, besoin d'initiative et d'action directe.",
+        "chronobiologie": "Pic matinal de cortisol dynamique ; canaliser la tension nerveuse par un effort physique bref.",
+        "conseil": "Lancer une action concrète ou trancher une décision en attente."
+      },
+      "animal": {
+        "comportement": "Vivacité accrue chez les prédateurs et les espèces territoriales ; déplacements rapides.",
+        "conseil": "Privilégier les séances de jeu actif et de dépense énergétique en extérieur."
+      },
+      "vegetal": {
+        "organe": "Fruits & Graines",
+        "action": "Jour Fruits : idéal pour semer, greffer ou récolter les plantes fruitières (tomates, courges, pois, arbres fruitiers).",
+        "seve": "Stimulation de la mise à fruit et de la maturation des semences."
+      },
+      "mineral": {
+        "resonance": "Oxydes de fer, hématite, quartz hématoïde — conductivité thermique et dynamisme géomagnétique."
+      }
+    },
+    "Taureau": {
+      "index": 1,
+      "symbol": "♉",
+      "constellation": "Taurus (Taureau)",
+      "element": "Terre",
+      "biodynamicPart": "Racines & Bulbes",
+      "ruler": "Vénus",
+      "humain": {
+        "energie": "Ancrage sensoriel, endurance calme, recherche de stabilité matérielle et de rythme régulier.",
+        "chronobiologie": "Métabolisme orienté vers l'assimilation et la récupération profonde ; sommeil réparateur favorisé.",
+        "conseil": "Consolider les acquis, structurer un projet durable et soigner l'alimentation."
+      },
+      "animal": {
+        "comportement": "Phase de pâturage calme, rumination prolongée et recherche de confort thermique.",
+        "conseil": "Maintenir des routines stables et renforcer l'apprentissage par récompense calme."
+      },
+      "vegetal": {
+        "organe": "Racines & Tubercules",
+        "action": "Jour Racines : propice aux radis, panais, pommes de terre, carottes, travail du sol et amendements.",
+        "seve": "Concentration des réserves nutritives dans le système racinaire."
+      },
+      "mineral": {
+        "resonance": "Silicates denses, argiles fertiles, calcite et cuivre natif — cohésion cristalline."
+      }
+    },
+    "Gémeaux": {
+      "index": 2,
+      "symbol": "♊",
+      "constellation": "Gemini (Gémeaux)",
+      "element": "Air",
+      "biodynamicPart": "Fleurs",
+      "ruler": "Mercure",
+      "humain": {
+        "energie": "Agilité intellectuelle, curiosité, besoin d'échange verbal, d'écriture et de mobilité.",
+        "chronobiologie": "Vigilance cérébrale rapide mais dispersion possible en fin de journée ; aérer l'espace de travail.",
+        "conseil": "Rédiger, documenter, synthétiser des informations ou tester de nouvelles idées."
+      },
+      "animal": {
+        "comportement": "Vocalisations fréquentes, exploration curieuse de l'environnement, activité élevée des oiseaux.",
+        "conseil": "Stimuler l'intelligence par des exercices olfactifs ou vocaux variés."
+      },
+      "vegetal": {
+        "organe": "Fleurs & Plantes aromatiques à fleurs",
+        "action": "Jour Fleurs : favoriser les plantes ornementales, pollinisatrices, artichauts, brocolis et récolte de fleurs.",
+        "seve": "Montée vers les bourgeons floraux et production d'huiles essentielles."
+      },
+      "mineral": {
+        "resonance": "Agate rubanée, mica, fluorite — polarisation optique et échanges ioniques."
+      }
+    },
+    "Cancer": {
+      "index": 3,
+      "symbol": "♋",
+      "constellation": "Cancer",
+      "element": "Eau",
+      "biodynamicPart": "Feuilles & Tiges",
+      "ruler": "Lune",
+      "humain": {
+        "energie": "Sensibilité émotionnelle accrue, réceptivité intuitive, besoin de protection et de foyer.",
+        "chronobiologie": "Forte sensibilité aux marées hydriques internes et à la mélatonine ; privilégier le calme le soir.",
+        "conseil": "Prendre soin de son environnement proche, restaurer l'équilibre intérieur."
+      },
+      "animal": {
+        "comportement": "Synchronisation forte des espèces littorales et aquatiques avec le marnage ; instinct protecteur.",
+        "conseil": "Respecter les zones de repli et veiller à une hydratation optimale."
+      },
+      "vegetal": {
+        "organe": "Feuilles & Salades",
+        "action": "Jour Feuilles : idéal pour laitues, épinards, choux, herbes feuillues (sauge, persil) et arrosage.",
+        "seve": "Circulation hydrique abondante dans le limbe foliaire ; éviter la récolte de conservation."
+      },
+      "mineral": {
+        "resonance": "Pierre de lune (adulaire), nacre, gypse — forte affinité avec l'eau interstitielle."
+      }
+    },
+    "Lion": {
+      "index": 4,
+      "symbol": "♌",
+      "constellation": "Leo (Lion)",
+      "element": "Feu",
+      "biodynamicPart": "Fruits & Graines",
+      "ruler": "Soleil",
+      "humain": {
+        "energie": "Rayonnement personnel, créativité affirmée, générosité et clarté de direction.",
+        "chronobiologie": "Tonus cardiovasculaire soutenu ; exposition à la lumière naturelle particulièrement bénéfique.",
+        "conseil": "Présenter une réalisation aboutie, créer ou fédérer autour d'une vision."
+      },
+      "animal": {
+        "comportement": "Postures d'affirmation sociale, phases de repos solaire alternant avec des pics d'activité.",
+        "conseil": "Favoriser les activités extérieures lumineuses et les interactions sociales."
+      },
+      "vegetal": {
+        "organe": "Fruits & Graines",
+        "action": "Jour Fruits : excellent pour récolter les fruits mûrs destinés à la conservation et sélectionner les graines.",
+        "seve": "Synthèse des sucres et vitalité solaire maximale dans les organes fructifères."
+      },
+      "mineral": {
+        "resonance": "Pyrite, ambre fossile, quartz citrin — piézoélectricité et réflexion solaire."
+      }
+    },
+    "Vierge": {
+      "index": 5,
+      "symbol": "♍",
+      "constellation": "Virgo (Vierge)",
+      "element": "Terre",
+      "biodynamicPart": "Racines & Bulbes",
+      "ruler": "Mercure",
+      "humain": {
+        "energie": "Précision analytique, sens de l'ordre, rigueur technique et discernement pratique.",
+        "chronobiologie": "Attention fine aux détails ; système digestif sensible au stress, privilégier la sobriété.",
+        "conseil": "Auditer, nettoyer le code ou les données, organiser les protocoles et les outils."
+      },
+      "animal": {
+        "comportement": "Toilettage minutieux, tri alimentaire sélectif et vigilance aux micro-variations du milieu.",
+        "conseil": "Contrôler l'hygiène de l'habitat, les rations et le suivi sanitaire."
+      },
+      "vegetal": {
+        "organe": "Racines & Désherbage",
+        "action": "Jour Racines : binage, sarclage, bouturage de fin d'été et entretien des cultures racinaires.",
+        "seve": "Structuration des tissus fibreux et cicatrisation nette des tailles."
+      },
+      "mineral": {
+        "resonance": "Jaspe, péridot, quartz hyalin — régularité réticulaire et pureté structurale."
+      }
+    },
+    "Balance": {
+      "index": 6,
+      "symbol": "♎",
+      "constellation": "Libra (Balance)",
+      "element": "Air",
+      "biodynamicPart": "Fleurs",
+      "ruler": "Vénus",
+      "humain": {
+        "energie": "Recherche d'harmonie, sens esthétique, coopération équilibrée et diplomatie.",
+        "chronobiologie": "Équilibre neurovégétatif ; favorable aux activités artistiques, musicales (432 Hz) et relationnelles.",
+        "conseil": "Ajuster l'ergonomie d'une interface, dialoguer et harmoniser les priorités."
+      },
+      "animal": {
+        "comportement": "Comportements d'apaisement, parades coordonnées et cohabitation pacifique.",
+        "conseil": "Encourager la socialisation calme entre espèces ou congénères."
+      },
+      "vegetal": {
+        "organe": "Fleurs & Plantes mellifères",
+        "action": "Jour Fleurs : plantation de vivaces fleuries, entretien des bordures et équilibre pollinisateur.",
+        "seve": "Équilibre harmonieux entre croissance aérienne et floraison."
+      },
+      "mineral": {
+        "resonance": "Lapis-lazuli, tourmaline, calcite optique — symétrie et équilibre des charges."
+      }
+    },
+    "Scorpion": {
+      "index": 7,
+      "symbol": "♏",
+      "constellation": "Scorpius (Scorpion)",
+      "element": "Eau",
+      "biodynamicPart": "Feuilles & Tiges",
+      "ruler": "Pluton / Mars",
+      "humain": {
+        "energie": "Concentration intense, profondeur d'investigation, résilience et transformation.",
+        "chronobiologie": "Régénération cellulaire nocturne prononcée ; évacuer les tensions accumulées.",
+        "conseil": "Aller au fond d'un problème complexe, éliminer le superflu."
+      },
+      "animal": {
+        "comportement": "Discrétion accrue, activité crépusculaire et nocturne renforcée, instinct de piste.",
+        "conseil": "Respecter le calme et proposer des activités de recherche en profondeur."
+      },
+      "vegetal": {
+        "organe": "Feuilles & Compostage",
+        "action": "Jour Feuilles : arrosage profond, préparation des purins végétaux et retournement du compost.",
+        "seve": "Activation microbiologique du sol et absorption humique."
+      },
+      "mineral": {
+        "resonance": "Obsidienne, magnétite, grenat — magnétisme profond et roches volcaniques."
+      }
+    },
+    "Sagittaire": {
+      "index": 8,
+      "symbol": "♐",
+      "constellation": "Sagittarius (Centre Galactique)",
+      "element": "Feu",
+      "biodynamicPart": "Fruits & Graines",
+      "ruler": "Jupiter",
+      "humain": {
+        "energie": "Vision globale, ouverture philosophique, élan d'exploration et synthèse stratégique.",
+        "chronobiologie": "Besoin d'espace et de mouvement ample ; respiration profonde et marche en plein air.",
+        "conseil": "Prendre de la hauteur sur l'architecture d'ensemble et planifier à long terme."
+      },
+      "animal": {
+        "comportement": "Instinct migratoire et exploratoire marqué, besoin de grands espaces de déplacement.",
+        "conseil": "Allonger les promenades et varier les itinéraires de découverte."
+      },
+      "vegetal": {
+        "organe": "Fruits & Plantes grimpantes",
+        "action": "Jour Fruits : semis de légumineuses grimpantes, entretien des vergers et taille de fructification.",
+        "seve": "Élongation des tiges fructifères et vigueur de croissance."
+      },
+      "mineral": {
+        "resonance": "Turquoise, sodalite, labradorite — iridescence spectrale et ouverture optique."
+      }
+    },
+    "Capricorne": {
+      "index": 9,
+      "symbol": "♑",
+      "constellation": "Capricornus (Capricorne)",
+      "element": "Terre",
+      "biodynamicPart": "Racines & Écorces",
+      "ruler": "Saturne",
+      "humain": {
+        "energie": "Sobriété stoïcienne, persévérance, maîtrise du temps et architecture solide.",
+        "chronobiologie": "Endurance à l'effort prolongé ; veiller à l'échauffement articulaire par temps frais.",
+        "conseil": "Finaliser les tâches exigeantes, documenter et pérenniser les acquis."
+      },
+      "animal": {
+        "comportement": "Économie d'énergie, vigilance calme et recherche de points hauts ou abrités.",
+        "conseil": "Privilégier la régularité et la discipline douce."
+      },
+      "vegetal": {
+        "organe": "Racines & Plantes vivaces ligneuses",
+        "action": "Jour Racines : plantation d'arbres et arbustes, travail des sols lourds, conservation longue durée.",
+        "seve": "Renforcement des parois cellulosiques et de la résistance au froid."
+      },
+      "mineral": {
+        "resonance": "Quartz fumé, granit, onyx — structure cristalline stable et haute densité."
+      }
+    },
+    "Verseau": {
+      "index": 10,
+      "symbol": "♒",
+      "constellation": "Aquarius (Verseau)",
+      "element": "Air",
+      "biodynamicPart": "Fleurs",
+      "ruler": "Uranus / Saturne",
+      "humain": {
+        "energie": "Originalité technique, pensée systémique en réseau, émancipation et innovation.",
+        "chronobiologie": "Excitabilité électrique du système nerveux ; couper les écrans 1h avant le sommeil.",
+        "conseil": "Prototyper une solution novatrice, expérimenter de nouveaux algorithmes."
+      },
+      "animal": {
+        "comportement": "Comportements atypiques ou inventifs, sensibilité aux variations électromagnétiques et météo.",
+        "conseil": "Introduire un nouvel enrichissement ludique dans l'environnement."
+      },
+      "vegetal": {
+        "organe": "Fleurs & Graines oléagineuses",
+        "action": "Jour Fleurs : aération des serres, semis de fleurs champêtres et stimulation de la floraison.",
+        "seve": "Circulation rapide et sensibilité accrue aux variations atmosphériques."
+      },
+      "mineral": {
+        "resonance": "Améthyste, cristal de roche, célestine — résonance piézoélectrique haute fréquence."
+      }
+    },
+    "Poissons": {
+      "index": 11,
+      "symbol": "♓",
+      "constellation": "Pisces (Poissons)",
+      "element": "Eau",
+      "biodynamicPart": "Feuilles & Tiges",
+      "ruler": "Neptune / Jupiter",
+      "humain": {
+        "energie": "Intuition globale, empathie, créativité musicale et contemplative.",
+        "chronobiologie": "Rêves intenses et perméabilité émotionnelle ; phase idéale pour la méditation et la musique.",
+        "conseil": "Laisser décanter les idées, composer ou contempler sans forcer."
+      },
+      "animal": {
+        "comportement": "Forte activité de la faune marine et des zones humides ; sensibilité aux courants et marées.",
+        "conseil": "Approche douce et observation silencieuse."
+      },
+      "vegetal": {
+        "organe": "Feuilles & Plantes aquatiques/humides",
+        "action": "Jour Feuilles : semis de feuillages tendres, paillage humide et soins doux au feuillage.",
+        "seve": "Hydratation tissulaire maximale ; éviter les tailles sévères."
+      },
+      "mineral": {
+        "resonance": "Aigue-marine, halite, opale hydratée — échange ionique en milieu aqueux."
+      }
+    }
+  }
+}
